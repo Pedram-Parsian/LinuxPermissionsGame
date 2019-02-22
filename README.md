@@ -6,6 +6,7 @@ Have you ever get confused with Linux permissions?  Then this game will definite
 
 Try playing it again and again and see how you can easily learn the rules for converting permissions from 'number' notation to 'string' notation, and vice versa.
 
+Feel free to play it as much as you want because it will never ask you the same question twice! :wink:
 
 
 ## Installation
