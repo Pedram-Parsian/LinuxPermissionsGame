@@ -1,4 +1,4 @@
-from os import system
+from os import system, path
 import re
 from itertools import product
 from random import choice
@@ -116,6 +116,8 @@ def generate_random_string():
 
 
 if __name__ == '__main__':
+    if not path.exists('./data.log'):
+        open('data.log', 'w').close()
     IS_GAME_FINISHED = False
     CURRENT_SCORE = 0
     HIGH_SCORE = read_high_score()
